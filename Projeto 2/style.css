@@ -1,0 +1,126 @@
+
+/**font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;**/
+
+body {
+  margin: 0px;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  /** linear-gradient() = I'll pass an intruction inside the (), workign8 theway we wanted. In other word, the linear-gradiet() will work like a function
+  (, ,) = inside the () there are three values, the first one is "what's the rotation of this gradient?" = 180 deg/degrees / 180° , the second and third values are the colors applied
+  rgba() = is like a function too = rgba (red, green, blue, transparance) 
+  the % means that the color will presente in some % of the element
+  linear-gradient CSS generator is a plataform the helps to calculate the colors
+  **/
+
+  min-height: 100vh;
+}
+
+
+.page {
+  width: 1000px;
+  margin:  0px auto;
+  padding: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px; 
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  
+}
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 1;
+} /** hover = means that when I pass the mouse over the link, it will show sothing diferent like turn the font-weitgh to bold**/
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #7D7987;
+  margin: 40px 0px;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #F9F9F9;
+  width: 189px;
+  height: 56px;
+  border-radius: 4px;
+  border: 0;
+  background-color:  #69B99D;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #22a074;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 82px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
